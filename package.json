@@ -1,14 +1,14 @@
 {
-	"name": "@faustbrian/fast-memoize-decorator",
+	"name": "@typeskrift/fast-memoize-decorator",
 	"version": "0.1.0",
 	"description": "A TypeScript decorator for memoizing properties using fast-memoize.",
-	"homepage": "https://github.com/faustbrian/fast-memoize-decorator",
+	"homepage": "https://github.com/typeskrift/fast-memoize-decorator",
 	"bugs": {
-		"url": "https://github.com/faustbrian/fast-memoize-decorator/issues"
+		"url": "https://github.com/typeskrift/fast-memoize-decorator/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:faustbrian/fast-memoize-decorator.git"
+		"url": "git@github.com:typeskrift/fast-memoize-decorator.git"
 	},
 	"license": "MIT",
 	"author": "Brian Faust <hello@basecode.sh>",
