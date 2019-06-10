@@ -6,7 +6,7 @@
 [![Node Engine](https://badgen.now.sh/npm/node/@typeskrift/fast-memoize-decorator)](https://www.npmjs.com/package/@typeskrift/fast-memoize-decorator)
 [![Build Status](https://badgen.now.sh/circleci/github/typeskrift/fast-memoize-decorator)](https://circleci.com/gh/typeskrift/fast-memoize-decorator)
 [![Codecov](https://badgen.now.sh/codecov/c/github/typeskrift/fast-memoize-decorator)](https://codecov.io/gh/typeskrift/fast-memoize-decorator)
-[![License: MPL-2.0](https://badgen.now.sh/badge/license/MPL-2.0/green)](https://mozilla.org/MPL/2.0/)
+[![License: MPL-2.0](https://badgen.now.sh/badge/license/MPL-2.0/green)](https://mozilla.org/MPL/2.0/) [![Greenkeeper badge](https://badges.greenkeeper.io/typeskrift/fast-memoize-decorator.svg)](https://greenkeeper.io/)
 
 ## Installation
 
