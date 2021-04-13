@@ -1,4 +1,6 @@
-import memoize from "fast-memoize";
+/* eslint-disable @typescript-eslint/unbound-method */
+
+import * as memoize from "fast-memoize";
 
 export function Memoize() {
 	// @ts-ignore
@@ -14,17 +16,19 @@ export function Memoize() {
 }
 
 function newFunction(name: string, fn: () => any) {
-	return function(this: any, ...args: any[]) {
+	return function (this: any, ...args: any[]) {
 		const bound = fn.bind(this);
 		// @ts-ignore
-		const value = (memoize as (...args: any[]) => (...args: any[]) => any)(bound);
+		const value = (memoize as (...args: any[]) => (...args: any[]) => any)(
+			bound
+		);
 		Object.defineProperty(this, name, { value });
 		return value(...args);
 	};
 }
 
 function newGetter(name: string, fn: () => any) {
-	return function(this: any) {
+	return function (this: any) {
 		const value = fn.apply(this);
 		Object.defineProperty(this, name, { value });
 		return value;
