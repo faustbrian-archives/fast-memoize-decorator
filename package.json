@@ -29,7 +29,7 @@
 		"fast-memoize": "^2.5.2"
 	},
 	"devDependencies": {
-		"@konceiver/tease": "^2.0.0"
+		"@konceiver/tease": "^2.0.1"
 	},
 	"types": "dist/index"
 }
